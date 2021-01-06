@@ -57,22 +57,27 @@ h1 {
 
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(180deg, #f56160, #fc7762);
+  background-image: linear-gradient(180deg, #f56160, #fa998a);
   padding: 20px 55px;
   border-radius: 5px;
   color: white;
 }
+
+.link-button:hover {
+  background-image: linear-gradient(-180deg, #fa998a, #f56160);
+}
+
 .align {
   text-align: center;
 }
 
 .center {
-  padding: 100px 0;
+  padding: 100px 0 100px 100px;
 }
 
 #sec_1 .center p {
   padding-bottom: 50px;
-  padding-right: 450px;
+  padding-right: 387px;
   padding-top: 30px;
   line-height: 1.5;
 }
@@ -110,6 +115,15 @@ h1 {
 
 .container {
   padding: 2px 16px;
+  line-height: 1.8;
+}
+
+.container h2 {
+  color: #363857;
+}
+
+.container p {
+  color: #6c6c6c;
 }
 
 .card {
@@ -148,11 +162,9 @@ h1 {
 .container .link-button {
   position: absolute;
   top: 43%;
-  left: 80%;
-  background-color: #555;
-  color: white;
+  left: 79%;
   font-size: 30px;
-  padding: 25px 28px;
+  padding: 26px 35px;
   border-radius: 5px;
 }
 
