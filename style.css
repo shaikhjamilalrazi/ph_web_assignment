@@ -160,7 +160,8 @@ h1 {
 
 .container {
   position: relative;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .container img {
@@ -168,9 +169,19 @@ h1 {
   height: auto;
 }
 
+.container h1 {
+  position: absolute;
+  top: 30%;
+  left: 9%;
+  color: #ffffff;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
 .container .link-button {
   position: absolute;
-  top: 43%;
+  top: 37%;
   left: 79%;
   font-size: 30px;
   padding: 26px 35px;
@@ -179,7 +190,7 @@ h1 {
 
 .container h1 {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 9%;
   color: #ffffff;
   font-size: 80px;
