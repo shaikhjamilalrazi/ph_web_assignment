@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 section {
@@ -32,15 +32,17 @@ ul.nav a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 50px;
-  color: #363958;
-  margin: 0;
-}
-
 .half-width {
   width: 50%;
   float: left;
+}
+
+h1 {
+  font-size: 60px;
+  color: #363958;
+}
+.txt-color {
+  color: #ff8367;
 }
 
 .half-width img {
@@ -51,14 +53,9 @@ h1 {
   margin-right: auto;
 }
 
-.txt-color {
-  color: #ff8367;
-}
-
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(180deg, #f56160, #fa998a);
-  padding: 20px 55px;
   border-radius: 5px;
   color: white;
 }
@@ -70,6 +67,10 @@ h1 {
 #sec_1 {
   margin-bottom: 20px;
   overflow: auto;
+}
+
+#sec_1 .link-button {
+  padding: 20px 55px;
 }
 
 .align {
@@ -100,6 +101,14 @@ h1 {
 #sec_2 {
   margin-bottom: 20px;
   overflow: auto;
+}
+
+#sec_2 .link-button {
+  padding: 20px 20px;
+}
+
+.fa {
+  margin-right: 15px;
 }
 
 #sec_3 {
